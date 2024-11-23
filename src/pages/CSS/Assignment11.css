@@ -1,0 +1,84 @@
+.MainC form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 100px auto;
+  gap: 0px;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 20px grey;
+  border-radius: 10px;
+}
+
+.MainC form label {
+  font-size: 30px;
+}
+
+.MainC form label {
+  display: flex;
+  flex-direction: row;
+}
+
+.MainC form label input {
+  padding: 5px;
+  height: min-content;
+  font-size: 18px;
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+.MainC form label input:focus {
+  outline: none;
+}
+
+.MainC form label input:nth-last-child(1) {
+  border-radius: 0px;
+}
+
+.passC p {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7px;
+}
+.passInput {
+  border: 3px rgb(0, 110, 255) solid;
+  height: min-content;
+  width: min-content;
+  padding-left: 1.5px;
+  padding-right: 2.5px;
+  padding-bottom: 1.5px;
+  padding-top: 0px;
+  border-radius: 5px;
+}
+
+.submitB {
+  width: max-content;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 3px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 5px grey;
+  transition: all 0.3s;
+}
+
+.submitB:hover {
+  transform: scale(1.1);
+}
+
+.submitB:active {
+  transform: scale(0.9);
+}
+
+.nameValid {
+  margin-top: 0px;
+}
+
+.emailValid {
+  margin-top: 0px;
+}
+
+.passValid {
+  margin-top: 5px;
+}

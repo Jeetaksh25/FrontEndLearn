@@ -1,0 +1,25 @@
+.inputText {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: aqua;
+    margin: 16px auto;
+}
+
+.active {
+    animation: effect1 6s infinite;
+}
+
+@keyframes effect1 {
+    0%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: rgb(255, 35, 145);
+    }
+    100%{
+        background-color: aquamarine;
+    }
+}

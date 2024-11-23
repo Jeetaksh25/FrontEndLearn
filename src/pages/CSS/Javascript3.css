@@ -1,0 +1,13 @@
+.active {
+    border: 20px blue solid;
+    transition: 0.5s ease-in-out;
+}
+
+.imageC{
+    background-color: rgb(159, 152, 255);
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    margin: 100px auto;
+}

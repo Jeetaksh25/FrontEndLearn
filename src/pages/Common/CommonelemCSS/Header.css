@@ -1,0 +1,24 @@
+
+.HeaderC {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: max-content;
+    padding: 20px;
+    align-items: center;
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: left 0.3s ease-in-out;
+}
+
+.HeaderC.open {
+    left: 0;
+}
+
+.HeaderC ul {
+    margin-left: -30px;
+    box-sizing: border-box;
+}
