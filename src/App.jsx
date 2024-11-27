@@ -4,10 +4,11 @@ import Stopwatch from "./Stopwatch.jsx";
 import Javascript2 from "./Javascript2.jsx";
 import Assignment11 from "./Assignment11.jsx";
 import Javascript3 from "./Javascript3.jsx";
+import Assignment13 from "./Assignment13.jsx";
 const App = () => {
   return (
     <>
-      <Stopwatch/>
+      <Assignment13/>
     </>
   );
 };
