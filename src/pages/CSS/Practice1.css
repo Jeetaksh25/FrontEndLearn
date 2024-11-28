@@ -1,0 +1,109 @@
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    margin: 0px auto;
+    background-color: gray;
+    padding: 0px;
+    border-radius: 5px;
+    height: min-content;
+}
+
+.navbar1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    align-content: center;
+    padding: 0px;
+    height: min-content;
+    margin: 10px;
+}
+
+.navbar1 ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px white ;
+}
+
+
+
+.RecipiesC {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+    column-gap: 15px;
+    flex-grow: 1;
+    margin-top: 50px;
+}
+
+.RCard {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px grey;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: max-content;
+}
+
+.RCard .imgC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px grey;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.RCard .imgC img {
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0px 0px 10px grey);
+    border-radius: 10px;
+}
+.RCard h3 {
+    margin: 0px;
+}
+
+.RCard p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.instruct{
+    display: flex;
+    color: black;
+} 
+
+.RCard button {
+    background-color: rgb(40, 242, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px grey;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.RCard button:hover, .navbar1 ul li:hover {
+    scale: 1.1;
+}
+
+

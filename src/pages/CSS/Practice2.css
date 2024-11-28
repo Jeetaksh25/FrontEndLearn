@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    margin: 0px auto;
+    background-color: gray;
+    padding: 0px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    align-content: center;
+    padding: 0px;
+    height: min-content;
+    margin: 10px;
+}
+
+.navbar ul li {
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.FormC1{
+    display: flex;
+    margin: 50px auto;
+    width: 80vw;
+}
+
+.FormC1 form{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 0px auto;
+    padding: 50px;
+    gap: 40px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+}
+
+.Input {
+    font-size: 25px;
+    padding: 7px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0px 0px 5px black;
+}
+
+.FormC1 form button{
+    width: max-content;
+    height: max-content;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(0, 216, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+    margin: 10px auto;
+    transition: 0.3s;
+}
+
+.FormC1 form button:hover{
+    transform: scale(1.1);
+}

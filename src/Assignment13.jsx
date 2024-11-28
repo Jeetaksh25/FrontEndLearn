@@ -9,6 +9,15 @@ const Assignment13 = () => {
     { id: 1, name: "Leather Bag", price: 50, img: "https://images.dailyobjects.com/marche/product-images/1202/brown-tan-urban-tech-brief-bag-large-images/Brown-Tan-Urban-Tech-Brief-Bag-Large.png?tr=cm-pad_resize,v-3,w-959,h-830,dpr-1" },
     { id: 2, name: "Canvas Bag", price: 30, img: "https://shop.vogue.com/cdn/shop/files/RedTotePrimary.png?v=1718724254" },
     { id: 3, name: "Sports Bag", price: 40, img: "https://freepngimg.com/thumb/duffel_bag/10-2-duffel-bag-png-image-thumb.png" },
+    { id: 4, name: "Leather Bag", price: 50, img: "https://images.dailyobjects.com/marche/product-images/1202/brown-tan-urban-tech-brief-bag-large-images/Brown-Tan-Urban-Tech-Brief-Bag-Large.png?tr=cm-pad_resize,v-3,w-959,h-830,dpr-1" },
+    { id: 5, name: "Canvas Bag", price: 30, img: "https://shop.vogue.com/cdn/shop/files/RedTotePrimary.png?v=1718724254" },
+    { id: 6, name: "Sports Bag", price: 40, img: "https://freepngimg.com/thumb/duffel_bag/10-2-duffel-bag-png-image-thumb.png" },
+    { id: 7, name: "Leather Bag", price: 50, img: "https://images.dailyobjects.com/marche/product-images/1202/brown-tan-urban-tech-brief-bag-large-images/Brown-Tan-Urban-Tech-Brief-Bag-Large.png?tr=cm-pad_resize,v-3,w-959,h-830,dpr-1" },
+    { id: 8, name: "Canvas Bag", price: 30, img: "https://shop.vogue.com/cdn/shop/files/RedTotePrimary.png?v=1718724254" },
+    { id: 9, name: "Sports Bag", price: 40, img: "https://freepngimg.com/thumb/duffel_bag/10-2-duffel-bag-png-image-thumb.png" },
+    { id: 10, name: "Leather Bag", price: 50, img: "https://images.dailyobjects.com/marche/product-images/1202/brown-tan-urban-tech-brief-bag-large-images/Brown-Tan-Urban-Tech-Brief-Bag-Large.png?tr=cm-pad_resize,v-3,w-959,h-830,dpr-1" },
+    { id: 11, name: "Canvas Bag", price: 30, img: "https://shop.vogue.com/cdn/shop/files/RedTotePrimary.png?v=1718724254" },
+    { id: 12, name: "Sports Bag", price: 40, img: "https://freepngimg.com/thumb/duffel_bag/10-2-duffel-bag-png-image-thumb.png" },
   ];
 
   const handleAdd = (price) => {
@@ -22,10 +31,15 @@ const Assignment13 = () => {
       alert("Please add items to cart")
       return
     }
-    alert("Order Placed Successfully")
-    setCount(0)
-    setTotal(0)
-
+    const confirm = window.confirm("Are you sure you want to checkout?")
+    if (confirm===true){
+      alert("Checkout successful")
+      setCount(0)
+      setTotal(0)
+    }
+    else{
+      return
+    }
   }
 
   return (
